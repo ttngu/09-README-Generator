@@ -59,11 +59,6 @@ const questions = [
             name: "contributing",
             message: "What does the user need to know about contributing to this repo?"
         },
-        {
-            type: "input",
-            name: "questions",
-            message: "Enter Questions:"
-        },
 ];
 
 // function to write README file
