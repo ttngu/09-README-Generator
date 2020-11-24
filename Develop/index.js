@@ -26,23 +26,8 @@ const questions = new Promise(function (resolve, reject){
             name: "description",
             message: "Enter a short project description:"
         },
-        // {
-        //     type: "input",
-        //     name: "table of contents",
-        //     message: "Enter the Table of Contents"
-        // },
         {
-            type: "input",
-            name: "installation",
-            message: "Enter Installation instrcutions:"
-        },
-        {
-            type: "input",
-            name: "usage",
-            message: "Enter Usage:"
-        },
-        {
-            type: "checklist",
+            type: "list",
             name: "license",
             message: "Choose License type:",
             choices: [
@@ -55,13 +40,25 @@ const questions = new Promise(function (resolve, reject){
         },
         {
             type: "input",
-            name: "contributing",
-            message: "What does the user need to know about contributing to this repo?"
+            name: "installCommand",
+            message: "What command should be run to install dependencies?",
+            default: 'npm i',
         },
         {
             type: "input",
-            name: "tests",
-            message: "Enter Tests:"
+            name: "testcommand",
+            message: "What command should be run to test?",
+            default: `npm test`,
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "Enter Usage info:"
+        },
+        {
+            type: "input",
+            name: "contributing",
+            message: "What does the user need to know about contributing to this repo?"
         },
         {
             type: "input",

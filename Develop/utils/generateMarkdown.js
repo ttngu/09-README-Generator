@@ -19,7 +19,7 @@ function generateMarkdown(data) {
   +
   "\n```\n"
   +
-  data.commandRun
+  data.installCommand
   +
   "\n```\n"
   +
@@ -37,6 +37,10 @@ function generateMarkdown(data) {
 
   ## Tests
   Run the following command to run tests:`
+  +
+  "\n```\n"
+  +
+  data.testCommand
   +
   "\n```\n"
   +
