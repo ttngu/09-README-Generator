@@ -24,17 +24,12 @@ function generateMarkdown(data) {
   "\n```\n"
   +
   `
-
   ## Usage
   ${data.usage}
 
-  ## License
-  ${data.license}
-  This project is licensed under the ${data.license} license.
-
   ## Contributing 
   ${data.contributing}
-
+  
   ## Tests
   Run the following command to run tests:`
   +
@@ -45,8 +40,12 @@ function generateMarkdown(data) {
   "\n```\n"
   +
   `
+  ## License
+  ${data.license}
+  This project is licensed under the ${data.license} license.
+
   ## Questions
-  If you have any questions about the repo, open and issue, or please contact me at ${data.email}. 
+  If you have any questions about the repo, open an issue, or please feel free to contact me directly at ${data.email}. 
   <br>
   <br>
   More of my work can be found at [${data.githubName}](https://github.com/${data.githubName.replace(" ","%20")}/).`;
