@@ -8,19 +8,29 @@ const questions = new Promise(function (resolve, reject){
     resolve(inquirer.prompt([
         {
             type: "input",
+            name: "githubName",
+            message: "What is your GitHub Name?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What is your email address?"
+        },
+        {
+            type: "input",
             name: "title",
-            message: "What is project title?"
+            message: "What is the project title?"
         },
         {
             type: "input",
             name: "description",
-            message: "Enter a Description:"
+            message: "Enter a short project description:"
         },
-        {
-            type: "input",
-            name: "table of contents",
-            message: "Enter the Table of Contents"
-        },
+        // {
+        //     type: "input",
+        //     name: "table of contents",
+        //     message: "Enter the Table of Contents"
+        // },
         {
             type: "input",
             name: "installation",
@@ -34,12 +44,19 @@ const questions = new Promise(function (resolve, reject){
         {
             type: "checklist",
             name: "license",
-            message: "Choose License type:"
+            message: "Choose License type:",
+            choices: [
+                "MIT",
+                "APACHE 2.0",
+                "GPL 3.0",
+                "BSD 3",
+                "None"
+            ],
         },
         {
             type: "input",
             name: "contributing",
-            message: "Who contributed to this project?"
+            message: "What does the user need to know about contributing to this repo?"
         },
         {
             type: "input",
@@ -58,7 +75,8 @@ const questions = new Promise(function (resolve, reject){
 function writeToFile(fileName, data) {
     fs.writeFile('fileName', data, function (err) {
         if (err) {
-            return console.log(err);
+            console.log(err);
+            throw err;
         }
     });
 }
@@ -76,3 +94,34 @@ function init() {
 
 // function call to initialize program
 init();
+
+
+// questions.then((response))
+//     fs.writeFile('README.md', `# ${response.title}
+    
+    
+//     #Description
+//     *${response.description}
+
+//     #Table of Contents
+//     *${response.contents}
+
+//     #Installation 
+//     *${response.installation}
+
+//     #Project Usage
+//     *${response.usage}
+
+//     #Contributers
+//     *${response.contributing}
+
+//     #Tests
+//     *${response.tests}`
+    
+    
+//     , (err) =>
+//         err ? console.error(err) : console.log(''))
+
+//     ;
+    //     });
+// })
