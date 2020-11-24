@@ -4,8 +4,7 @@ let generateMarkdown = require('./utils/generateMarkdown.js');
 
 
 // array of questions for user
-const questions = new Promise(function (resolve, reject){
-    resolve(inquirer.prompt([
+const questions = [
         {
             type: "input",
             name: "githubName",
@@ -64,13 +63,12 @@ const questions = new Promise(function (resolve, reject){
             type: "input",
             name: "questions",
             message: "Enter Questions:"
-        }
-    ]))
-});
+        },
+];
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('fileName', data, function (err) {
+    fs.writeFile('README.md', data, function (err) {
         if (err) {
             console.log(err);
             throw err;
