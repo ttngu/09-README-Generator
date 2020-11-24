@@ -1,7 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 let generateMarkdown = require('./utils/generateMarkdown.js');
-const { createConnection } = require("net");
 
 
 // array of questions for user
