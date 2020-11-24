@@ -5,6 +5,8 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.description}
+  <br>
+  <br>
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -13,7 +15,9 @@ function generateMarkdown(data) {
   * [Contributing](#Contributing)
   * [Tests](#Tests)
   * [Questions](#Questions)
- 
+ <br>
+ <br>
+
   ## Installation
   To install dependencies, run the following commend:`
   +
@@ -24,12 +28,19 @@ function generateMarkdown(data) {
   "\n```\n"
   +
   `
+  <br>
+  <br>
+
   ## Usage
   ${data.usage}
+  <br>
+  <br>
 
   ## Contributing 
   ${data.contributing}
-  
+  <br>
+  <br>
+
   ## Tests
   Run the following command to run tests:`
   +
@@ -40,13 +51,19 @@ function generateMarkdown(data) {
   "\n```\n"
   +
   `
+  <br>
+  <br>
+
   ## License
   This project is licensed under the ${data.license} license.
+  <br>
+  <br>
 
   ## Questions
   If you have any questions about the repo, open an issue, or please feel free to contact me directly at ${data.email}. 
   <br>
   <br>
+  
   More of my work can be found on GitHub at: [${data.githubName}](https://github.com/${data.githubName.replace(" ","%20")}/).`;
 
     return template;
