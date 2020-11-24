@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   If you have any questions about the repo, open an issue, or please feel free to contact me directly at ${data.email}. 
   <br>
   <br>
-  More of my work can be found at [${data.githubName}](https://github.com/${data.githubName.replace(" ","%20")}/).`;
+  More of my work can be found on GitHub at: [${data.githubName}](https://github.com/${data.githubName.replace(" ","%20")}/).`;
 
     return template;
   }
