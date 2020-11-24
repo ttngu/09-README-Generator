@@ -91,34 +91,3 @@ function init() {
 
 // function call to initialize program
 init();
-
-
-// questions.then((response))
-//     fs.writeFile('README.md', `# ${response.title}
-    
-    
-//     #Description
-//     *${response.description}
-
-//     #Table of Contents
-//     *${response.contents}
-
-//     #Installation 
-//     *${response.installation}
-
-//     #Project Usage
-//     *${response.usage}
-
-//     #Contributers
-//     *${response.contributing}
-
-//     #Tests
-//     *${response.tests}`
-    
-    
-//     , (err) =>
-//         err ? console.error(err) : console.log(''))
-
-//     ;
-    //     });
-// })
