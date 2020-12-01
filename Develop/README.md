@@ -1,8 +1,8 @@
-# hey
+# stuff
   ![GitHub License](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
-  hello
+  more stuff
   <br>
   <br>
 
@@ -26,19 +26,19 @@ npm i
   <br>
 
   ## Usage
-  hello
+  stuff
   <br>
   <br>
 
   ## Contributing 
-  
+  stuff
   <br>
   <br>
 
   ## Tests
   Run the following command to run tests:
 ```
-undefined
+npm test
 ```
 
   <br>
@@ -50,8 +50,8 @@ undefined
   <br>
 
   ## Questions
-  If you have any questions about the repo, open an issue, or please feel free to contact me directly at hi. 
+  If you have any questions about the repo, open an issue, or please feel free to contact me directly at @gmail. 
   <br>
   <br>
   
-  More of my work can be found on GitHub at: [hello](https://github.com/hello/).
+  More of my work can be found on GitHub at: [Tammy](https://github.com/Tammy/).
