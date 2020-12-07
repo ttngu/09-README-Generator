@@ -5,7 +5,7 @@
   This Password Generator Application allows the user to quickly create a README.md file for any project quickly.
 
   The generator is run by using the command line, as demonstrated in the video linked here:
-  https://github.com/ttngu/09-README-Generator/tree/main/Develop/assets
+  https://drive.google.com/file/d/1Rphg3T46c7lrT7NmLvhCm6O0-mp_s_W7/view?usp=sharing
 
   Here is the link to the GitHub Repo for this assignment:
   https://github.com/ttngu/09-README-Generator
