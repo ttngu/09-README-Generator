@@ -1,8 +1,8 @@
-# hello
+# Password Gen
   ![GitHub License](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
-  hello
+  This will allow you to generate a quick README.md for any project
   <br>
   <br>
 
@@ -26,12 +26,12 @@ npm i
   <br>
 
   ## Usage
-  no
+  After running 'npm i' in the terminal, run 'node index.js' to run to generator.
   <br>
   <br>
 
   ## Contributing 
-  no
+  Please contribute.
   <br>
   <br>
 
@@ -50,8 +50,8 @@ npm test
   <br>
 
   ## Questions
-  If you have any questions about the repo, open an issue, or please feel free to contact me directly at hello. 
+  If you have any questions about the repo, open an issue, or please feel free to contact me directly at tammyn137@gmail.com. 
   <br>
   <br>
   
-  More of my work can be found on GitHub at: [hello ](https://github.com/hello%20/).
+  More of my work can be found on GitHub at: [ttngu](https://github.com/ttngu/).
