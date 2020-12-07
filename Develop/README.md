@@ -1,8 +1,8 @@
-# stuff
+# hello
   ![GitHub License](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
-  more stuff
+  hello
   <br>
   <br>
 
@@ -26,12 +26,12 @@ npm i
   <br>
 
   ## Usage
-  stuff
+  no
   <br>
   <br>
 
   ## Contributing 
-  stuff
+  no
   <br>
   <br>
 
@@ -50,8 +50,8 @@ npm test
   <br>
 
   ## Questions
-  If you have any questions about the repo, open an issue, or please feel free to contact me directly at @gmail. 
+  If you have any questions about the repo, open an issue, or please feel free to contact me directly at hello. 
   <br>
   <br>
   
-  More of my work can be found on GitHub at: [Tammy](https://github.com/Tammy/).
+  More of my work can be found on GitHub at: [hello ](https://github.com/hello%20/).
