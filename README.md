@@ -6,6 +6,8 @@
 
   The generator is run by using the command line, as demonstrated in the video linked here:
   https://drive.google.com/file/d/1Rphg3T46c7lrT7NmLvhCm6O0-mp_s_W7/view?usp=sharing
+  or
+  https://github.com/ttngu/09-README-Generator/blob/main/Develop/assets/Password%20Gen%20Video.mp4
 
   Here is the link to the GitHub Repo for this assignment:
   https://github.com/ttngu/09-README-Generator
